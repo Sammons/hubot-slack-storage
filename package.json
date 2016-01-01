@@ -1,0 +1,23 @@
+{
+  "name": "hubot-slack-storage",
+  "description": "A hubot script that stores slack messages in collections by channel",
+  "version": "0.0.0",
+  "author": "Sammons <ben@sammons.io>",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sammons/hubot-slack-storage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sammons/hubot-slack-storage/issues"
+  },
+  "dependencies": {
+    "mongodb": "^2.1.2"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.3"
+  },
+  "main": "index.coffee",
+  "scripts": {}
+}
