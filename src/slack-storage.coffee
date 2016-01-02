@@ -29,7 +29,7 @@ module.exports = (robot) ->
   host = process.env.MONGODB_SLACK_HOST || "localhost"
   port = process.env.MONGODB_SLACK_PORT || "27017"
   dbname = process.env.MONGODB_SLACK_DB || "slack"
-  url = ['mongodb://', host, ':', port, '/', dbname].join ''
+  url = ['mongodb://', user, ':', pass, '@', host, ':', port, '/', dbname].join ''
 
   error = (err) ->
     robot.logger.info "==SLACK STORAGE UNAVAILABLE=="
